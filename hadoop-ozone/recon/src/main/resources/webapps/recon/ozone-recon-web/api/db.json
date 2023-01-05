@@ -1602,5 +1602,46 @@
         ]
       }
     ]
+  },
+  "entityInfo":{
+    "entityInfo": {
+      "type": "DIRECTORY",
+      "numVolume": -1,
+      "numBucket": -1,
+      "numDir": 2,
+      "numKey": 5,
+      "status": "OK"
+    },
+    "childEntityMetrics": [
+      {
+        "key": false,
+        "path": "/volume1/bucket1/dir1/dir2",
+        "size": 86060,
+        "sizeWithReplica": 258180,
+        "isKey": false,
+        "keyCount": 4,
+        "bucketCount": -1,
+        "dirCount": 1,
+        "volumeCount": -1,
+        "type": "DIRECTORY",
+        "creationTime": 1671801625290,
+        "modificationTime": 1671801625290
+      },
+      {
+        "key": true,
+        "path": "/volume1/bucket1/dir1/LICENSE.txt",
+        "size": 21515,
+        "sizeWithReplica": 64545,
+        "isKey": true,
+        "keyCount": 0,
+        "bucketCount": -1,
+        "dirCount": -1,
+        "volumeCount": -1,
+        "type": "KEY",
+        "creationTime": 1671801625290,
+        "modificationTime": 1671801625290
+      }
+    ],
+    "status": "OK"
   }
 }

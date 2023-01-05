@@ -76,6 +76,11 @@ class NavBar extends React.Component<INavBarProps> {
             <span>Insights</span>
             <Link to='/Insights'/>
           </Menu.Item>
+          <Menu.Item key='/Metrics'>
+            <Icon type='container'/>
+            <span>Metrics</span>
+            <Link to='/Metrics'/>
+          </Menu.Item>
           <Menu.Item key='/DiskUsage'>
             <Icon type='pie-chart'/>
             <span>Disk Usage</span>

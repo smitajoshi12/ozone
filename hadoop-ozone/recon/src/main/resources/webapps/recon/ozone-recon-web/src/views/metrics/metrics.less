@@ -16,16 +16,45 @@
  * limitations under the License.
  */
 
-interface IBreadcrumbNameMap {
-  [path: string]: string;
+.metrics-container {
+  .filter-block {
+    display: inline-block;
+    margin-left: 25px;
+  }
+
+  h4 {
+    display: inline-block;
+  }
+
+  .multi-select-container {
+    padding-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    width: 300px;
+  }
+  .go-back-button {
+    display: inline-block;
+  }
+
+  .dropdown-button {
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+  .input-bar {
+    display: inline-block;
+    margin-left: 25px;
+  }
+
 }
 
-export const breadcrumbNameMap: IBreadcrumbNameMap = {
-  '/Overview': 'Overview',
-  '/Datanodes': 'Datanodes',
-  '/Pipelines': 'Pipelines',
-  '/MissingContainers': 'Missing Containers',
-  '/Insights': 'Insights',
-  '/DiskUsage': 'Disk Usage',
-  '/Metrics': 'Metrics',
-};
+.input {
+  padding-left: 5px;
+  margin-right: 10px;
+  display: inline-block;
+  width: 300px;
+}
+
+.ant-drawer-open .ant-drawer-mask {
+  opacity: 0 !important;
+}
